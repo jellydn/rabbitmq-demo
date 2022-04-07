@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Huynh Duc Dung",
+  "license": "MIT",
+  "scripts": {
+    "emit": "ts-node-dev src/emit-log-topic.ts",
+    "receive": "ts-node-dev src/receive-logs-topic.ts",
+    "test": "xo && uvu -r tsm tests"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.2",
+    "@types/node": "^16.11.26",
+    "ts-node-dev": "^1.1.8",
+    "tsm": "^2.2.1",
+    "typescript": "^4.6.3",
+    "uvu": "^0.5.3",
+    "xo": "^0.48.0"
+  }
+}
