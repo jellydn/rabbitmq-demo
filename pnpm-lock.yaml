@@ -2,7 +2,7 @@ lockfileVersion: '6.0'
 
 dependencies:
   amqplib:
-    specifier: ^0.10.3
+    specifier: 0.10.3
     version: 0.10.3
 
 devDependencies:
@@ -22,13 +22,13 @@ devDependencies:
     specifier: 8.37.0
     version: 8.37.0
   eslint-config-prettier:
-    specifier: ^8.8.0
+    specifier: 8.8.0
     version: 8.8.0(eslint@8.37.0)
   eslint-config-xo:
-    specifier: ^0.43.1
+    specifier: 0.43.1
     version: 0.43.1(eslint@8.37.0)
   eslint-config-xo-typescript:
-    specifier: ^0.56.0
+    specifier: 0.56.0
     version: 0.56.0(@typescript-eslint/eslint-plugin@5.57.0)(@typescript-eslint/parser@5.57.0)(eslint@8.37.0)(typescript@5.0.3)
   tsm:
     specifier: 2.3.0
