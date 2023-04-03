@@ -8,29 +8,31 @@
 
 ## Install
 
+Run below commadn with [antfu/ni: 💡 Use the right package manager](https://github.com/antfu/ni)
+
 ```sh
-yarn install
+ni 
 ```
 
-## Usage
+## Usage 1: Receiving messages base on pattern
 
 Open 1st terminal with below command
 
 ```sh
-yarn receive "info.*"
+nr receive "info.*"
 ```
 
 Then open other terminal to emit message to rabbit mq
 
 ```sh
-yarn emit info.1 hello
-yarn emit info.2 demo
+nr emit info.1 hello
+nr emit info.2 demo
 ```
 
 ## Run tests
 
 ```sh
-yarn test
+nr test
 ```
 
 ## Author
@@ -45,6 +47,3 @@ yarn test
 
 Give a ⭐️ if this project helped you!
 
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
