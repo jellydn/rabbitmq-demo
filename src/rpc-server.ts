@@ -1,4 +1,10 @@
 import amqp from "amqplib/callback_api";
+import z from "zod";
+
+const multiplySchema = z.object({
+  a: z.number(),
+  b: z.number(),
+});
 
 function multiply(a: number, b: number) {
   return a * b;
@@ -26,11 +32,32 @@ function startServer() {
       channel.consume(
         queue,
         (msg) => {
-          const { a, b } = JSON.parse(msg?.content?.toString() ?? "{}") as {
-            a: number;
-            b: number;
-          };
-          console.log(` [.] multiply(${a}, ${b})`);
+          let a: number;
+          let b: number;
+          try {
+            const data = multiplySchema.parse(
+              JSON.parse(msg?.content?.toString() ?? "{}")
+            );
+            a = data.a;
+            b = data.b;
+            console.log(` [.] multiply(${a}, ${b})`);
+          } catch (error) {
+            console.log(" [.] Invalid request", error);
+
+            channel.sendToQueue(
+              String(msg?.properties?.replyTo ?? ""),
+              Buffer.from("error: invalid input format"),
+              {
+                correlationId: String(msg?.properties?.correlationId ?? ""),
+              }
+            );
+
+            if (msg) {
+              channel.ack(msg);
+            }
+
+            return;
+          }
 
           const result = multiply(a, b);
 
