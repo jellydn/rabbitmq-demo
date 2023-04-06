@@ -9,6 +9,7 @@
     "lint": "eslint . --ext .ts --fix",
     "receive": "tsx src/receive-logs-topic.ts",
     "rpc-client": "tsx src/rpc-client.ts",
+    "rpc-server": "tsx src/rpc-server.ts",
     "test": "uvu -r tsm tests"
   },
   "dependencies": {
