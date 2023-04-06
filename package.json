@@ -8,6 +8,7 @@
     "emit": "tsx src/emit-log-topic.ts",
     "lint": "eslint . --ext .ts --fix",
     "receive": "tsx src/receive-logs-topic.ts",
+    "rpc-client": "tsx src/rpc-client.ts",
     "test": "uvu -r tsm tests"
   },
   "dependencies": {
