@@ -8,10 +8,17 @@
 
 ## Install
 
-Run below commadn with [antfu/ni: 💡 Use the right package manager](https://github.com/antfu/ni)
+Run below command with [antfu/ni: 💡 Use the right package manager](https://github.com/antfu/ni)
 
 ```sh
 ni 
+```
+
+Then run RabbitMQ server with Docker.
+
+```sh
+cd mq
+sh run.sh start
 ```
 
 ## Usage 1: Receiving messages base on pattern
