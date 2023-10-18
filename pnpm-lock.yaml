@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@types/amqplib':
-    specifier: 0.10.2
-    version: 0.10.2
+    specifier: 0.10.3
+    version: 0.10.3
   '@types/node':
     specifier: 18.18.6
     version: 18.18.6
@@ -362,8 +362,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@types/amqplib@0.10.2:
-    resolution: {integrity: sha512-K0qC2YR0ZcQWWMOifg4yvCAu5wi/V6wY6MnMS4LSvqx6qwXBAhxno6OBN8D76FIaajLNfgHKOXobZBL/uAwXAQ==}
+  /@types/amqplib@0.10.3:
+    resolution: {integrity: sha512-ZVkD5RqoW6+n84WanWf0a74mT0CVWdXOEEEC9nZvseD//j36XiYGR2phjpHQM6JpYR4vcWnjgUbqFCFG7MB+lw==}
     dependencies:
       '@types/node': 18.18.6
     dev: true
