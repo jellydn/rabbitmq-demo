@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   amqplib:
-    specifier: 0.10.3
-    version: 0.10.3
+    specifier: 0.10.4
+    version: 0.10.4
   zod:
     specifier: 3.22.4
     version: 3.22.4
@@ -548,8 +548,8 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /amqplib@0.10.3:
-    resolution: {integrity: sha512-UHmuSa7n8vVW/a5HGh2nFPqAEr8+cD4dEZ6u9GjP91nHfr1a54RyAKyra7Sb5NH7NBKOUlyQSMXIp0qAixKexw==}
+  /amqplib@0.10.4:
+    resolution: {integrity: sha512-DMZ4eCEjAVdX1II2TfIUpJhfKAuoCeDIo/YyETbfAqehHTXxxs7WOOd+N1Xxr4cKhx12y23zk8/os98FxlZHrw==}
     engines: {node: '>=10'}
     dependencies:
       '@acuminous/bitsyntax': 0.1.2
