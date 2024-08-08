@@ -26,7 +26,7 @@
     "eslint-config-xo": "0.46.0",
     "eslint-config-xo-typescript": "1.0.1",
     "tsm": "2.3.0",
-    "tsx": "4.16.5",
+    "tsx": "4.17.0",
     "typescript": "5.5.4",
     "uvu": "0.5.6"
   }
