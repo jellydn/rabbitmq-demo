@@ -19,8 +19,8 @@ importers:
         specifier: 0.10.5
         version: 0.10.5
       '@types/node':
-        specifier: 20.17.3
-        version: 20.17.3
+        specifier: 20.17.4
+        version: 20.17.4
       '@typescript-eslint/eslint-plugin':
         specifier: 5.62.0
         version: 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
@@ -269,8 +269,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@20.17.3':
-    resolution: {integrity: sha512-tSQrmKKatLDGnG92h40GD7FzUt0MjahaHwOME4VAFeeA/Xopayq5qLyQRy7Jg/pjgKIFBXuKcGhJo+UdYG55jQ==}
+  '@types/node@20.17.4':
+    resolution: {integrity: sha512-Fi1Bj8qTJr4f1FDdHFR7oMlOawEYSzkHNdBJK+aRjcDDNHwEV3jPPjuZP2Lh2QNgXeqzM8Y+U6b6urKAog2rZw==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1197,11 +1197,11 @@ snapshots:
 
   '@types/amqplib@0.10.5':
     dependencies:
-      '@types/node': 20.17.3
+      '@types/node': 20.17.4
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@20.17.3':
+  '@types/node@20.17.4':
     dependencies:
       undici-types: 6.19.8
 
