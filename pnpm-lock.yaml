@@ -16,8 +16,8 @@ importers:
         version: 3.23.8
     devDependencies:
       '@types/amqplib':
-        specifier: 0.10.5
-        version: 0.10.5
+        specifier: 0.10.6
+        version: 0.10.6
       '@types/node':
         specifier: 20.17.9
         version: 20.17.9
@@ -263,8 +263,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@types/amqplib@0.10.5':
-    resolution: {integrity: sha512-/cSykxROY7BWwDoi4Y4/jLAuZTshZxd8Ey1QYa/VaXriMotBDoou7V/twJiOSHzU6t1Kp1AHAUXGCgqq+6DNeg==}
+  '@types/amqplib@0.10.6':
+    resolution: {integrity: sha512-vQLVypBS1JQcfTXhl1Td1EEeLdtb+vuulOb4TrzYiLyP2aYLMAEzB3pNmEA0jBm0xIXu946Y7Xwl19Eidl32SQ==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -1187,7 +1187,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@types/amqplib@0.10.5':
+  '@types/amqplib@0.10.6':
     dependencies:
       '@types/node': 20.17.9
 
