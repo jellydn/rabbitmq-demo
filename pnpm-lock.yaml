@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       amqplib:
-        specifier: 0.10.7
-        version: 0.10.7
+        specifier: 0.10.8
+        version: 0.10.8
       zod:
         specifier: 3.24.3
         version: 3.24.3
@@ -404,8 +404,8 @@ packages:
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
 
-  amqplib@0.10.7:
-    resolution: {integrity: sha512-7xPSYKSX2kj/bT6iHZ3MlctzxdCW1Ds9xyN0EmuRi2DZxHztwwoG1YkZrgmLyuPNjfxlRiMdWJPQscmoa3Vgdg==}
+  amqplib@0.10.8:
+    resolution: {integrity: sha512-Tfn1O9sFgAP8DqeMEpt2IacsVTENBpblB3SqLdn0jK2AeX8iyCvbptBc8lyATT9bQ31MsjVwUSQ1g8f4jHOUfw==}
     engines: {node: '>=10'}
 
   ansi-regex@5.0.1:
@@ -1391,7 +1391,7 @@ snapshots:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
 
-  amqplib@0.10.7:
+  amqplib@0.10.8:
     dependencies:
       buffer-more-ints: 1.0.0
       url-parse: 1.5.10
