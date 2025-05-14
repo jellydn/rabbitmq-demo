@@ -19,8 +19,8 @@
   "devDependencies": {
     "@types/amqplib": "0.10.7",
     "@types/node": "20.17.47",
-    "@typescript-eslint/eslint-plugin": "5.62.0",
-    "@typescript-eslint/parser": "5.62.0",
+    "@typescript-eslint/eslint-plugin": "8.32.1",
+    "@typescript-eslint/parser": "8.32.1",
     "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-xo": "0.47.0",
