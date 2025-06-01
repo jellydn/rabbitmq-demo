@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "amqplib": "0.10.8",
-    "zod": "3.25.42"
+    "zod": "3.25.45"
   },
   "devDependencies": {
     "@types/amqplib": "0.10.7",
