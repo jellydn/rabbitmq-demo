@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "amqplib": "0.10.8",
-    "zod": "3.25.63"
+    "zod": "3.25.64"
   },
   "devDependencies": {
     "@types/amqplib": "0.10.7",
@@ -26,7 +26,7 @@
     "eslint-config-xo": "0.47.0",
     "eslint-config-xo-typescript": "1.0.1",
     "tsm": "2.3.0",
-    "tsx": "4.20.2",
+    "tsx": "4.20.3",
     "typescript": "5.8.3",
     "uvu": "0.5.6"
   }
