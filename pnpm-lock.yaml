@@ -16,8 +16,8 @@ importers:
         version: 3.25.76
     devDependencies:
       '@types/amqplib':
-        specifier: 0.10.7
-        version: 0.10.7
+        specifier: 0.10.8
+        version: 0.10.8
       '@types/node':
         specifier: 20.19.23
         version: 20.19.23
@@ -299,8 +299,8 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@types/amqplib@0.10.7':
-    resolution: {integrity: sha512-IVj3avf9AQd2nXCx0PGk/OYq7VmHiyNxWFSb5HhU9ATh+i+gHWvVcljFTcTWQ/dyHJCTrzCixde+r/asL2ErDA==}
+  '@types/amqplib@0.10.8':
+    resolution: {integrity: sha512-vtDp8Pk1wsE/AuQ8/Rgtm6KUZYqcnTgNvEHwzCkX8rL7AGsC6zqAfKAAJhUZXFhM/Pp++tbnUHiam/8vVpPztA==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -1216,7 +1216,7 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.3
 
-  '@types/amqplib@0.10.7':
+  '@types/amqplib@0.10.8':
     dependencies:
       '@types/node': 20.19.23
 
