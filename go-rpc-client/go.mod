@@ -1,5 +1,5 @@
 module simplerpc_client
 
-go 1.20
+go 1.25.4
 
 require github.com/streadway/amqp v1.1.0
