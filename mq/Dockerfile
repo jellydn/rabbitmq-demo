@@ -1,5 +1,5 @@
 # Use the official RabbitMQ image as the base image
-FROM rabbitmq:3.13-management
+FROM rabbitmq:4.2-management
 
 # Set environment variables for RabbitMQ
 ENV RABBITMQ_ERLANG_COOKIE="my_secret_cookie"
