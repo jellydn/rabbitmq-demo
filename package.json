@@ -21,7 +21,7 @@
     "@types/node": "20.19.35",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
-    "eslint": "8.57.1",
+    "eslint": "10.0.2",
     "eslint-config-prettier": "9.1.2",
     "eslint-config-xo": "0.50.0",
     "eslint-config-xo-typescript": "1.0.1",
