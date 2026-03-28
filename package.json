@@ -13,7 +13,7 @@
     "test": "uvu -r tsm tests"
   },
   "dependencies": {
-    "amqplib": "0.10.9",
+    "amqplib": "1.0.2",
     "zod": "3.25.76"
   },
   "devDependencies": {
